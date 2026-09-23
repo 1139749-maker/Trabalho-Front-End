@@ -9,9 +9,18 @@ Referência visual da página:
 
 Reproduzir a organização editorial da referência: marca no cabeçalho, título de página, galeria fotográfica em grade e formulário de newsletter no rodapé. A implementação foi construída do zero a partir da observação visual da página, sem copiar seu código-fonte. 
 
+**Análise Estrutural da Referência:**
+- **Cabeçalho (`header` / `nav`):** Identificou-se uma navegação minimalista no topo centrada na marca do autor.
+- **Conteúdo Principal (`main` / `section`):** Título de página em destaque editorial seguido por uma galeria de fotos disposta em grade.
+- **Galeria (`figure` / `figcaption`):** Imagens de alto impacto visual e foco em composição limpa.
+- **Rodapé (`footer` / `form`):** Formulário de captura de e-mail (newsletter) e links sociais ao final da página.
+
 # Git
 
 Dia 1 — 23/09/2026: estrutura e galeria
 
 1. `estrutura semantica inicial da pagina`
 	- Criar `index.html` com `header`, `nav`, `main`, `section`, `figure`, `form` e `footer`.
+
+2. `estrutura inicial da galeria de fotos`
+	- Adicionar a grade, as imagens e os textos alternativos (`alt`).
