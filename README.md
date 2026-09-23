@@ -24,3 +24,6 @@ Dia 1 — 23/09/2026: estrutura e galeria
 
 2. `estrutura inicial da galeria de fotos`
 	- Adicionar a grade, as imagens e os textos alternativos (`alt`).
+
+3. `imagens locais na pasta da galeria`
+	- Organizar as fotos na pasta `imagem.png` e usar caminhos relativos no HTML.
