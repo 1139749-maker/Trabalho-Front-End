@@ -140,3 +140,26 @@
         </figure>
       </div>
     </section>
+
+    <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+      <form class="newsletter-form" id="newsletter-form">
+        <h2 id="newsletter-title">Receba notificações de novos projetos, fotos e histórias.</h2>
+        <label for="email">Seu e-mail</label>
+        <div class="form-row">
+          <input id="email" name="email" type="email" placeholder="email@exemplo.com" autocomplete="email" required>
+          <button type="submit">Subscribe <span aria-hidden="true">↗</span></button>
+        </div>
+        <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  
+  <script>
+    const newsletterForm = document.querySelector('#newsletter-form');
+    const feedback = document.querySelector('#form-feedback');
+
+    newsletterForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      feedback.textContent = 'Obrigado! Recebemos seu e-mail.';
+      newsletterForm.reset();
+    });
