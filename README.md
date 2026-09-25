@@ -32,3 +32,6 @@ Dia 1 — 23/09/2026: estrutura e galeria
 
 4. `estilos base tipografia e variaveis css`
 	- Criar variáveis de cor, tipografia, espaçamento e borda no `:root`.
+	
+5. `layout da galeria com css grid`
+	- Organizar quatro fotos por linha, com bordas arredondadas e espaçamento leve.
