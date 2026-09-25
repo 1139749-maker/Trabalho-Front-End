@@ -27,3 +27,8 @@ Dia 1 — 23/09/2026: estrutura e galeria
 
 3. `imagens locais na pasta da galeria`
 	- Organizar as fotos na pasta `imagem.png` e usar caminhos relativos no HTML.
+
+### Dia 2 — 25/09/2026: CSS, formulário e responsividade
+
+4. `estilos base tipografia e variaveis css`
+	- Criar variáveis de cor, tipografia, espaçamento e borda no `:root`.
