@@ -154,6 +154,17 @@
     </section>
   </main>
   
+  <footer class="site-footer">
+    <div>
+      <p class="wordmark">LUISA <span>MIGLIORINI</span></p>
+    </div>
+    <nav aria-label="Redes sociais">
+      <a href="https://www.instagram.com/luisa.lima.migliorini/" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="https://br.linkedin.com/in/luisalimamigliorini" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </nav>
+  </footer>
+
   <script>
     const newsletterForm = document.querySelector('#newsletter-form');
     const feedback = document.querySelector('#form-feedback');
@@ -163,3 +174,15 @@
       feedback.textContent = 'Obrigado! Recebemos seu e-mail.';
       newsletterForm.reset();
     });
+
+    const navigationLinks = document.querySelectorAll('.main-navigation a, .site-footer nav a');
+
+    navigationLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        navigationLinks.forEach((item) => item.classList.remove('active'));
+        link.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
