@@ -28,7 +28,7 @@ Dia 1 — 23/09/2026: estrutura e galeria
 3. `imagens locais na pasta da galeria`
 	- Organizar as fotos na pasta `imagem.png` e usar caminhos relativos no HTML.
 
-### Dia 2 — 25/09/2026: CSS, formulário e responsividade
+Dia 2 — 25/09/2026: CSS, formulário e responsividade
 
 4. `estilos base tipografia e variaveis css`
 	- Criar variáveis de cor, tipografia, espaçamento e borda no `:root`.
@@ -37,4 +37,10 @@ Dia 1 — 23/09/2026: estrutura e galeria
 	- Organizar quatro fotos por linha, com bordas arredondadas e espaçamento leve.
 
 6. `formulario de newsletter acessivel`
-	- Adicionar `label`, `type="email"`, `required` e mensagem de confirmação via JavaScript.
+	- Estrutura HTML com atributos ARIA, script JS de feedback e estilização CSS do formulário e footer."
+
+Dia 3 — 26/09/2026: personalização e entrega
+
+7. `responsividade e personalizacao da pagina`
+	- Responsividade para telas maiores: Ajustar mobile e desktop com media queries. Além de aproveitar a tela: aumentando os espaçamentos internos (paddings).
+	- Personalizar a marca para `LUISA MIGLIORINI` invés de Peter Mckinnon. As fotos são autorais, fotos da natureza, flores, paisagens e animais, com o intuito de ser minimalista, seguindo o modelo do site do autor.
